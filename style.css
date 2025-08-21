@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+    text-shadow: 0 3px 6px white;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.raz {
+    display: flex;
+    gap: 30px;
+}
+
+.bckimg {
+    background-image: url(Rectangle\ 2\ \(7\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.title {
+    background-color: white;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+
+}
+
+.pozitionContainer {
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 3px 3px 6px white;
+    border-radius: 15px;
+}
+
+.poziki {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    align-items: end;
+}
+
+.pozota {
+    width: 237px;
+    height: 209px;
+    background-color: #32FB00;
+    color: #FF0606;
+    box-shadow: 0 3px 6px white;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pozbola {
+    width: 237px;
+    height: 209px;
+    background-color: #FF0606;
+    position: absolute;
+    text-align: center;
+    top: -50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.poz1 {
+    left: 50%;
+}
+.poz2 {
+    width: 380px;
+    left: -30%;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.poz3 {
+    left: -50%;
+}
+
+.pozota .poztext{
+    color: #FF0606;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20%;
+}
+
+.tittle {
+    background-color: white;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: 3px 3px 6px white;
+    border-radius: 15px;
+    width: 602px;
+}
+
+.card {
+width: 368px;
+background-color: #7B2525;
+height: 332px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+h3{
+    color: white;
+    text-shadow: 0 3px 6px white;
+    margin-bottom: 68px;
+}
+
+.card p {
+    text-shadow: none;
+    width: 200px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.taraf {
+    display: flex;
+    gap: 100px;
+}
